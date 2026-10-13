@@ -1,0 +1,65 @@
+
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  background: linear-gradient(135deg, #e3f2fd, #e8f5e9);
+}
+
+.tarjeta {
+  border-radius: 24px !important;
+  overflow: hidden;
+}
+
+.contenido {
+  padding: 32px !important;
+  text-align: center;
+}
+
+.icono-principal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background: #1565c0;
+  border-radius: 50%;
+}
+
+.tasa {
+  margin-top: 28px;
+  padding: 18px;
+  color: #0d47a1;
+  background: #e3f2fd;
+  border-radius: 14px;
+}
+
+.resultado {
+  margin-top: 24px;
+  padding: 24px 12px;
+  background: #f1f8e9;
+  border-radius: 16px;
+}
+
+.total {
+  margin: 12px 0 !important;
+  color: #2e7d32;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .contenido {
+    padding: 24px 18px !important;
+  }
+
+  .contenido h1 {
+    font-size: 1.8rem;
+  }
+
+  .total {
+    font-size: 2.2rem !important;
+  }
+}
